@@ -1,0 +1,39 @@
+====================================================================================================
+TRAINING-REGIME / MIXED-MAGNIFICATION ANALYSIS
+====================================================================================================
+
+PRIMARY FAMILY-MATCHED CONTRAST
+Virchow = explicit single 20x / 0.5 mpp
+Virchow2 = explicit mixed 5x / 10x / 20x / 40x
+
+Virchow mean MGG       : 0.4321
+Virchow2 mean MGG      : 0.1812
+Absolute delta         : -0.2508
+Relative MGG reduction : 58.1%
+Lower MGG directions   : 6/6
+Exact sign-flip p      : 0.03125
+Exact Wilcoxon p       : 0.03125
+
+Mean within-scale BA:
+  Virchow  = 0.7196
+  Virchow2 = 0.8328
+  Delta    = +0.1132
+
+Mean cross-scale BA:
+  Virchow  = 0.2875
+  Virchow2 = 0.6516
+  Delta    = +0.3641
+
+REPRESENTATION METRIC CHANGES
+CKA                0.5590 -> 0.4147 (delta=-0.1443)
+Retention          0.7091 -> 0.6140 (delta=-0.0951)
+Retrieval          0.5206 -> 0.6426 (delta=+0.1221)
+Recall@1           0.6056 -> 0.7606 (delta=+0.1549)
+NPS                0.1862 -> 0.1785 (delta=-0.0077)
+mean_MGG           0.4321 -> 0.1812 (delta=-0.2508)
+shift_robustness   -2.9459 -> -0.5797 (delta=+2.3662)
+
+SECONDARY DISTILLATION CONTRAST
+GigaPath mean MGG       = 0.3563
+GigaPath-Flash mean MGG = 0.3945
+Exact paired p           = 0.09375

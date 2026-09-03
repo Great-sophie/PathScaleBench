@@ -1,0 +1,7 @@
+setting,primary_setting,spearman_vs_primary,mean_abs_rank_displacement,max_abs_rank_displacement,n_models_changed_rank,same_top_model,mean_abs_model_score_difference
+Q100_K1,Q200_K5,1.0,0.0,0.0,0,True,0.01413412646394871
+Q100_K10,Q200_K5,1.0,0.0,0.0,0,True,0.007732742209153619
+Q100_K5,Q200_K5,1.0,0.0,0.0,0,True,0.0004477423228795713
+Q200_K1,Q200_K5,1.0,0.0,0.0,0,True,0.013715268499677045
+Q200_K10,Q200_K5,1.0,0.0,0.0,0,True,0.008109922060620556
+Q200_K5,Q200_K5,1.0,0.0,0.0,0,True,0.0

@@ -1,0 +1,22 @@
+protocol: pathscalebench_native_fov_same_center_v1
+cohort:
+  n_cases: 71
+  cancer_types: [BLCA, BRCA, COAD, HNSC, KIRC, LUAD, STAD, UCEC]
+scales:
+  - {name: 40x, patch_pixels: [224, 224]}
+  - {name: 10x, patch_pixels: [224, 224]}
+  - {name: 2.5x, patch_pixels: [224, 224]}
+models:
+  phikon: {embedding_dim: 768}
+  uni: {embedding_dim: 1024}
+  virchow: {embedding_dim: 2560}
+  virchow2: {embedding_dim: 2560}
+  uni2: {embedding_dim: 1536}
+  midnight: {embedding_dim: 3072}
+  gigapath: {embedding_dim: 1536}
+  gigapath_flash: {embedding_dim: 384}
+analysis:
+  cka_sampling_sensitivity_max_patches: 1024
+  retrieval: {max_queries_per_direction: 200, top_k: 5, forward_seed: 42, reverse_seed: 43}
+  nps: {max_aligned_rows: 1000, k: 10}
+  magnification_shift: {folds: 5, repeats: 10}

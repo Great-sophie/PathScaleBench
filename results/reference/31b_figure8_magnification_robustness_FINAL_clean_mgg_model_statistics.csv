@@ -1,0 +1,2 @@
+analysis,n_blocks,n_models,friedman_chi_square,df,p_value,kendall_W
+direction-level MGG,6,8,26.166666666666657,7,0.0004702697185730054,0.6230158730158728

@@ -1,0 +1,9 @@
+model,model_display,global_alignment,relative_retention,cross_scale_retrieval,biological_identity,neighborhood_preservation,mean_rank,rank_sd,descriptive_overall_rank
+phikon,Phikon,1.0,1.0,4.0,4.0,1.0,2.2,1.469693845669907,1
+uni,UNI,4.0,3.0,8.0,7.0,2.0,4.8,2.3151673805580453,4
+virchow,Virchow,7.0,5.0,3.0,8.0,4.0,5.4,1.8547236990991407,5
+virchow2,Virchow2,8.0,8.0,1.0,3.0,8.0,5.6,3.006659275674582,7
+uni2,UNI2,3.0,2.0,5.0,2.0,3.0,3.0,1.0954451150103321,2
+midnight,Midnight,2.0,4.0,7.0,1.0,6.0,4.0,2.280350850198276,3
+gigapath,GigaPath,6.0,6.0,6.0,5.0,5.0,5.6,0.48989794855663565,7
+gigapath_flash,GigaPath-Flash,5.0,7.0,2.0,6.0,7.0,5.4,1.8547236990991407,5

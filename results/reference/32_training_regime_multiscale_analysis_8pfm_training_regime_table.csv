@@ -1,0 +1,9 @@
+model,histological_scale_regime,regime_class,explicit_mixed_magnification,distilled,tcga_pretraining_overlap,evidence_note
+Phikon,20x / 0.5 um-per-pixel,single_nominal_magnification,False,False,True,Source pathology tiles extracted at 20x / 0.5 um-per-pixel.
+UNI,20x source tiles; 256/512 px FOV variation,single_nominal_magnification,False,False,False,Training tiles sampled at 20x; different tile sizes change FOV but not nominal WSI magnification.
+Virchow,20x / 0.5 mpp,single_nominal_magnification,False,False,False,Official model card states tiles sampled at 0.5 mpp / 20x.
+Virchow2,5x / 10x / 20x / 40x,explicit_mixed_magnification,True,False,False,"Official model card explicitly states 2.0, 1.0, 0.5, 0.25 mpp sampling."
+UNI2,not explicitly documented in public model card,not_sufficiently_documented,,False,False,Public model card reports >200M tiles / >300k H&E and IHC slides but does not explicitly document mixed WSI magnification sampling.
+Midnight,not explicitly documented for released Midnight-12k,not_sufficiently_documented,,False,True,Released Midnight-12k is trained on TCGA-12k; high-resolution post-training is described for proprietary Midnight-92k/392.
+GigaPath,20x / 0.5 mpp,single_nominal_magnification,False,False,False,Original GigaPath tile pretraining uses 256x256 pathology tiles at 20x / 0.5 MPP.
+GigaPath-Flash,GigaPath-family distilled tile encoder,distilled_family,,True,False,ViT-S tile encoder distilled from the original GigaPath ViT-g teacher.

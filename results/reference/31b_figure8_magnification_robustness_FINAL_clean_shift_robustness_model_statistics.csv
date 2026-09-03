@@ -1,0 +1,2 @@
+analysis,n_cases,n_models,friedman_chi_square,df,p_value,kendall_W,input_file,value_column
+case-level probabilistic shift robustness,71,8,217.18309859154942,7,2.613507903154111e-43,0.4369881259387312,native_fov/reviewer_analysis/results/20_magnification_shift_robustness_8pfm_overall_metrics_and_robustness.csv,shift_robustness

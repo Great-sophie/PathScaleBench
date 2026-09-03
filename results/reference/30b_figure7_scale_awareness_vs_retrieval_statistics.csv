@@ -1,0 +1,5 @@
+metric,n_pfms,spearman_rho,exact_two_sided_p,holm_p,significant_holm_0_05
+CKA,8,0.428571,0.299206,1.0,False
+Retention,8,0.166667,0.703323,1.0,False
+Retrieval,8,-0.095238,0.840129,1.0,False
+NPS,8,-0.214286,0.619097,1.0,False

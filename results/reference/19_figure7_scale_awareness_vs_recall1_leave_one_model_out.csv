@@ -1,0 +1,33 @@
+predictor,predictor_label,excluded_model,excluded_model_display,n_models,spearman_rho
+global_alignment,Global alignment (CKA),phikon,Phikon,7,0.5
+global_alignment,Global alignment (CKA),uni,UNI,7,0.42857142857142866
+global_alignment,Global alignment (CKA),virchow,Virchow,7,0.3214285714285715
+global_alignment,Global alignment (CKA),virchow2,Virchow2,7,0.7500000000000002
+global_alignment,Global alignment (CKA),uni2,UNI2,7,0.25
+global_alignment,Global alignment (CKA),midnight,Midnight,7,0.25
+global_alignment,Global alignment (CKA),gigapath,GigaPath,7,0.42857142857142866
+global_alignment,Global alignment (CKA),gigapath_flash,GigaPath-Flash,7,0.42857142857142866
+relative_retention,Relative retention,phikon,Phikon,7,0.14285714285714288
+relative_retention,Relative retention,uni,UNI,7,0.3214285714285715
+relative_retention,Relative retention,virchow,Virchow,7,0.10714285714285716
+relative_retention,Relative retention,virchow2,Virchow2,7,0.39285714285714296
+relative_retention,Relative retention,uni2,UNI2,7,-0.07142857142857144
+relative_retention,Relative retention,midnight,Midnight,7,0.10714285714285716
+relative_retention,Relative retention,gigapath,GigaPath,7,0.14285714285714288
+relative_retention,Relative retention,gigapath_flash,GigaPath-Flash,7,0.14285714285714288
+cross_scale_retrieval,Cross-scale retrieval similarity,phikon,Phikon,7,-0.07142857142857144
+cross_scale_retrieval,Cross-scale retrieval similarity,uni,UNI,7,-0.4642857142857144
+cross_scale_retrieval,Cross-scale retrieval similarity,virchow,Virchow,7,0.10714285714285716
+cross_scale_retrieval,Cross-scale retrieval similarity,virchow2,Virchow2,7,-0.28571428571428575
+cross_scale_retrieval,Cross-scale retrieval similarity,uni2,UNI2,7,0.03571428571428572
+cross_scale_retrieval,Cross-scale retrieval similarity,midnight,Midnight,7,0.14285714285714288
+cross_scale_retrieval,Cross-scale retrieval similarity,gigapath,GigaPath,7,-0.14285714285714288
+cross_scale_retrieval,Cross-scale retrieval similarity,gigapath_flash,GigaPath-Flash,7,-0.07142857142857144
+neighborhood_preservation,Neighborhood Preservation Score,phikon,Phikon,7,-0.3214285714285715
+neighborhood_preservation,Neighborhood Preservation Score,uni,UNI,7,-0.03571428571428572
+neighborhood_preservation,Neighborhood Preservation Score,virchow,Virchow,7,-0.21428571428571433
+neighborhood_preservation,Neighborhood Preservation Score,virchow2,Virchow2,7,-0.07142857142857144
+neighborhood_preservation,Neighborhood Preservation Score,uni2,UNI2,7,-0.39285714285714296
+neighborhood_preservation,Neighborhood Preservation Score,midnight,Midnight,7,-0.07142857142857144
+neighborhood_preservation,Neighborhood Preservation Score,gigapath,GigaPath,7,-0.21428571428571433
+neighborhood_preservation,Neighborhood Preservation Score,gigapath_flash,GigaPath-Flash,7,-0.3571428571428572

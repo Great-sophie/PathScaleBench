@@ -1,0 +1,2 @@
+test,effect,n_cases,n_levels,chi2,df,p_value,kendall_w,significance
+Friedman,Model,71,8,392.4084507042253,7,1.0123318684589466e-80,0.789554226769065,****
